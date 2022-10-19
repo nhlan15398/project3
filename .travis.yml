@@ -2,4 +2,3 @@
 - docker tag udagram-api-feed anhnm123/udagram-api-feed:latest
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - docker push nhlan150398/udagram-api-feed:v1
-
